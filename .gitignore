@@ -1,0 +1,30 @@
+# Gradle and build files
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# Local configuration files
+local.properties
+
+# Log and OS files
+*.log
+.DS_Store
+
+# IntelliJ and Android Studio files
+.idea/
+*.iml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services
+google-services.json
+
+# Android profiling
+*.hprof

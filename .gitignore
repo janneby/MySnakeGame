@@ -1,3 +1,4 @@
+# Gradle and build files
 # Gradle files
 .gradle/
 build/
@@ -16,9 +17,18 @@ captures/
 *.apk
 output-metadata.json
 
+# Local configuration files
+local.properties
+
+# Log and OS files
+*.log
+.DS_Store
+
+# IntelliJ and Android Studio files
 # IntelliJ
 *.iml
 .idea/
+*.iml
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
@@ -27,8 +37,10 @@ render.experimental.xml
 *.jks
 *.keystore
 
+# Google Services
 # Google Services (e.g. APIs or Firebase)
 google-services.json
 
+# Android profiling
 # Android Profiling
 *.hprof
